@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,8 +17,11 @@ body{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 10px solid #dddddd;
-    border-top-color: #333;
+   border: 15px solid;  /* #dddddd;  */
+    border-top-color:red;
+    border-left-color:green ;
+    border-right-color: yellow;
+    border-bottom-color:blue ;
     animation: rotate 1s infinite;
 }
 
@@ -26,4 +29,4 @@ body{
     100%{
         rotate: 360deg;
     }
-} */
+} 
